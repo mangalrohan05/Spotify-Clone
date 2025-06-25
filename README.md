@@ -47,10 +47,6 @@ Spotify-Clone/
 - No backend or database integration included.
 - You can host this using GitHub Pages or any static site hosting service.
 
-## 📍 Live Demo
-
-[Click here to see it live](https://mangalrohan05.github.io/Spotify-Clone/)
-
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
