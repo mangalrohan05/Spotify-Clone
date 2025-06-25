@@ -26,3 +26,32 @@ A fully responsive front-end clone of Spotify built using **HTML**, **CSS**, and
 
 ## 📂 Folder Structure
 
+Spotify-Clone/
+│
+├── css/ # Stylesheets
+├── img/ # Images and icons
+├── js/ # JavaScript files
+├── songs/ # Music and metadata
+├── index.html # Main HTML file
+└── favicon.ico # Tab icon
+
+
+
+## 🖼️ Preview
+
+> Add a screenshot or GIF here showing the clone on different screen sizes (optional)
+
+## 📌 Notes
+
+- This is a front-end clone for educational/demo purposes.
+- No backend or database integration included.
+- You can host this using GitHub Pages or any static site hosting service.
+
+## 📍 Live Demo
+
+[Click here to see it live](https://mangalrohan05.github.io/Spotify-Clone/)
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
