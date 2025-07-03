@@ -60,10 +60,10 @@ async function getSongs(folder) {
 }
 
 const playMusic = (track, pause = false) => {
-    currentSong.src = `${currFolder}/` + track
+    currentSong.src = `./${currFolder}/` + track
     if (!pause) {
         currentSong.play()
-        play.src = "img/pause.svg"
+        play.src = "./img/pause.svg"
     }
     document.querySelector(".songinfo").innerHTML = decodeURI(track)
     document.querySelector(".songtime").innerHTML = "00:00 / 00:00"
@@ -71,7 +71,7 @@ const playMusic = (track, pause = false) => {
 
 async function displayAlbums() {
     console.log("displaying albums")
-    let a = await fetch(`songs/`)
+let a = await fetch(`./songs/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
@@ -99,7 +99,7 @@ async function displayAlbums() {
                 </svg>
             </div>
 
-            <img src="songs/${folder}/cover.jpg" alt="">
+            <img src="./songs/${folder}/cover.jpg" alt="">
             <h2>${response.title}</h2>
             <p>${response.description}</p>
         </div>`
@@ -135,11 +135,11 @@ async function main() {
     play.addEventListener("click", () => {
         if (currentSong.paused) {
             currentSong.play()
-            play.src = "img/pause.svg"
+            play.src = "./img/pause.svg"
         }
         else {
             currentSong.pause()
-            play.src = "img/play.svg"
+            play.src = "./img/play.svg"
         }
     })
 
