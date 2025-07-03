@@ -43,7 +43,7 @@ async function getSongs(folder) {
                             </div>
                             <div class="playnow">
                                 <span>Play Now</span>
-                                <img class="invert" src="img/play.svg" alt="">
+                                <img class="invert" src="./img/play.svg" alt="">
                             </div> </li>`;
     }
 
