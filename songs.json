@@ -1,0 +1,43 @@
+{
+  "albums": [
+    {
+      "folder": "Angry_(mood)",
+      "title": "Angry Mood",
+      "description": "Calm your Anger",
+      "cover": "songs/Angry_(mood)/cover.jpg",
+      "songs": [
+        "songs/Angry_(mood)/Abroad Again - Jeremy Black.mp3",
+        "songs/Angry_(mood)/Blue Ribbons - Track Tribe.mp3"
+      ]
+    },
+    {
+      "folder": "Bright_(mood)",
+      "title": "Bright Mood",
+      "description": "Feel the Happiness",
+      "cover": "songs/Bright_(mood)/cover.jpg",
+      "songs": [
+        "songs/Bright_(mood)/Colony - TrackTribe.mp3",
+        "songs/Bright_(mood)/Decimate - Jeremy Blake.mp3"
+      ]
+    },
+    {
+      "folder": "Chill_(mood)",
+      "title": "Chill Mood",
+      "description": "Enjoy the moment",
+      "cover": "songs/Chill_(mood)/cover.jpg",
+      "songs": [
+        "songs/Chill_(mood)/Lalala.mp3"
+      ]
+    },
+    {
+      "folder": "cs",
+      "title": "CS",
+      "description": "Cool feeling",
+      "cover": "songs/cs/cover.jpg",
+      "songs": [
+        "songs/cs/Connie Francis - Pretty Little Baby (Official Audio).mp3",
+        "songs/cs/Nick Cave & The Bad Seeds - Red Right Hand.mp3"
+      ]
+    }
+  ]
+}
