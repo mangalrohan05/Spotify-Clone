@@ -2,6 +2,8 @@
 
 A fully responsive front-end clone of Spotify built using **HTML**, **CSS**, and **JavaScript**.
 
+Live : spotify-clone-rm.vercel.app
+
 ## 🚀 Features
 
 - 🎧 Clean and modern **UI inspired by Spotify**
@@ -50,4 +52,5 @@ Spotify-Clone/
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
 
